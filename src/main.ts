@@ -1,3 +1,6 @@
+/**
+ * convert farsi/persian digits to english digits
+ */
 const convertToEnDigits = (num: string): string | undefined => {
   if (!num) return;
   num = num.toString();
