@@ -1,0 +1,30 @@
+{
+  "name": "convert-to-en-digits",
+  "version": "1.0.0",
+  "description": " convert farsi/persian digits to english digits ",  
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/imkarimkarim/convert-to-en-digits.git",
+  "keywords": [
+    "digits",
+    "persian",
+    "farsi",
+    "utility"
+  ],
+  "author": "imkarimkarim <allalirezamail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imkarimkarim/convert-to-en-digits/issues"
+  },
+  "homepage": "https://github.com/imkarimkarim/convert-to-en-digits#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
