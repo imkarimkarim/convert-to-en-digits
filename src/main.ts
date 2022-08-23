@@ -1,8 +1,8 @@
 /**
  * convert farsi/persian digits to english digits
  */
-const convertToEnDigits = (num: string): string | undefined => {
-  if (!num) return;
+const convertToEnDigits = (num: string): string => {
+  if (!num) return num;
   num = num.toString();
   if (!num) return num;
   num = num

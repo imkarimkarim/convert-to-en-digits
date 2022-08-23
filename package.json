@@ -1,9 +1,8 @@
 {
   "name": "convert-to-en-digits",
-  "version": "1.0.1",
-  "description": " convert farsi/persian digits to english digits ",  
+  "version": "1.0.2",
+  "description": " convert farsi/persian digits to english digits ",
   "main": "lib/main.js",
-  "types": "lib/main.d.ts",
   "type": "module",
   "files": [
     "lib"
