@@ -17,9 +17,10 @@ yarn add convert-to-en-digits
 ## Example
 
 ```js
-import convertToEnDigits from "convert-to-en-digits";
+import {convertToEnDigits, convertToFaDigits} from "convert-to-en-digits";
 
-const enDigits = convertToEnDigits("۰۱۲۳۴۵۶۷۸۹");
+const enDigits = convertToEnDigits("۰۱۲۳۴۵۶۷۸۹"); // => 0123456789
+const faDigits = convertToFaDigits("0123456789"); // => ۰۱۲۳۴۵۶۷۸۹
 ```
 
 ## Bugs
