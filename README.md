@@ -19,7 +19,7 @@ yarn add convert-to-en-digits
 ```js
 import convertToEnDigits from "convert-to-en-digits";
 
-const enDigits = convertToEnDigits("۰۱۲۳۴۵۶۷۸۹");
+const enDigits = convertToEnDigits("۰۱۲۳۴۵۶۷۸۹"); // => 0123456789
 ```
 
 ## Bugs
