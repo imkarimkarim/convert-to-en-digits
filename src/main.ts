@@ -40,7 +40,7 @@ const convertToFaDigits = (num: string): string => {
   return num;
 };
 
-export default {
+export {
   convertToEnDigits,
   convertToFaDigits
 }
